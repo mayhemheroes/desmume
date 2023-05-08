@@ -10,7 +10,7 @@ image: ghcr.io/ladylandshark/desmume:latest
 # Testsuite info
 testsuite:
 #  - https://mayhem.forallsecure.com/ladylandshark/desmume/testsuite.tar
-  - file://micsamples
+  - file://desmume/micsamples
 
 
 # List of commands used to test the target
