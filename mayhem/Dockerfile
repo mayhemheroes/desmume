@@ -7,7 +7,7 @@ ENV TZ="America/New York"
 RUN apt-get update && apt-get install -y make build-essential autoconf automake libglib2.0-dev libpcap0.8 libpcap-dev libsdl2-dev zlib1g
 
 ## Add Source Code
-ADD src/ /src
+ADD desmume/src/ /src
 
 ## Build Step
 WORKDIR /src/frontend/posix
